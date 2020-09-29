@@ -3,11 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 import { Container, GithubLogo, SearchForm } from './styles';
 
-interface Props {
-  themeName: ThemeName;
-  setThemeName: ;
-}
-
 const Header: React.FC = () => {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
@@ -15,7 +10,7 @@ const Header: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    navigate('/' + search.toLowerCase().trim);
+    navigate('/' + search.toLowerCase().trim());
   }
 
   return (
