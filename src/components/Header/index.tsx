@@ -13,9 +13,13 @@ const Header: React.FC = () => {
     navigate('/' + search.toLowerCase().trim());
   }
 
+  const navigateHome = () => {
+    navigate('/');
+  }
+
   return (
     <Container>
-      <GithubLogo />
+      <GithubLogo onClick={navigateHome} />
       <SearchForm onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter Username or Repo..." value={search} onChange={e => setSearch(e.currentTarget.value)} />
       </SearchForm>
