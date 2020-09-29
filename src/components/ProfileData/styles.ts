@@ -41,6 +41,7 @@ export const Avatar = styled.img`
 
   @media (min-width: 168px){
     width: 100%;
+    margin-top: -34px;
   }
 `;
 
