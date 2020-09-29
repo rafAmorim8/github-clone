@@ -3,6 +3,11 @@ import { useNavigate } from 'react-router-dom';
 
 import { Container, GithubLogo, SearchForm } from './styles';
 
+interface Props {
+  themeName: ThemeName;
+  setThemeName: ;
+}
+
 const Header: React.FC = () => {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
