@@ -18,7 +18,7 @@
 
 ## :computer: Demo
 <p align="center">
-  <img alt="Website Demo" src="https://res.cloudinary.com/dokwfizst/image/upload/c_scale,w_553/v1588804503/rafAmorim/codePartner.gif">
+  <img alt="Website Demo" src="https://res.cloudinary.com/dokwfizst/image/upload/v1601407514/rafAmorim/github-clone_msjizl.jpg">
 </p>
 <p align="center">
 <a href="https://github-clone-react.herokuapp.com/">See Live Demo</a>
